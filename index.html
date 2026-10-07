@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="om" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carraa Konkolaataa fi Maallaqaa Guutuu Sagantaa 7ffaa - Bilisaan Yaali</title>
+    <!-- Tailwind CSS v3 Play CDN (Stable & Fully Rendered) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0b0f19;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-marquee {
+            display: flex;
+            width: max-content;
+            animation: marquee 20s linear infinite;
+        }
+        .animate-marquee:hover {
+            animation-play-state: paused;
+        }
+        @keyframes pulse-live {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(1.15); }
+        }
+        .live-dot {
+            animation: pulse-live 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 0 15px rgba(234, 179, 8, 0.4); }
+            50% { box-shadow: 0 0 30px rgba(234, 179, 8, 0.8); }
+        }
+        .prize-glow {
+            animation: glow 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-amber-500 selection:text-slate-950 pb-24 md:pb-0">
+
+    <!-- PINNED TOP HEADER / BAR -->
+    <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-amber-500/30 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="relative flex h-3.5 w-3.5">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3.5 w-3.5 bg-red-600"></span>
+                </span>
+                <span class="bg-red-600/20 text-red-400 border border-red-500/30 px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-red-500 live-dot"></span> LIVE
+                </span>
+                <span class="text-sm font-bold tracking-tight text-amber-400 hidden sm:inline">Carraa 7ffaa Assé</span>
+            </div>
+            
+            <a href="http://addismobileapps.com/sms.html" class="bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-400 hover:to-yellow-400 text-slate-950 font-black px-5 py-2 rounded-xl text-sm sm:text-base shadow-lg shadow-amber-500/30 transform transition active:scale-95 flex items-center gap-2">
+                <span>Lakkoofsa Fudhachuu</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative overflow-hidden pt-10 pb-16 px-4 bg-gradient-to-b from-slate-900 via-slate-950 to-slate-950">
+        <!-- Background Glow Accents -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-sm font-bold mb-6">
+                ✨ Carraa Konkolaataa fi Maallaqaa Sagantaa 7ffaa Assé
+            </div>
+
+            <!-- Main Heading -->
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight mb-6 leading-tight">
+                Konkolaataa Filatamaa fi Badhaafamaa <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500">Ta'aa!</span>
+            </h1>
+
+            <p class="text-lg sm:text-xl text-slate-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Sa'aatii muraasaaf qofa kan turu, sponsarootarra argaman <strong class="text-amber-400 font-extrabold underline decoration-amber-500/50">lakkoofsota bilisaa</strong> fayyadamuun carraa keessan bilisaan liinkii armaan gadii tuqanii yaali!
+            </p>
+
+            <!-- Big CTA Button -->
+            <div class="mb-10">
+                <a href="http://addismobileapps.com/sms.html" class="inline-flex items-center justify-center gap-3 w-full sm:w-auto bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 text-slate-950 font-black text-xl sm:text-2xl px-10 py-5 rounded-2xl shadow-xl shadow-amber-500/20 hover:scale-105 active:scale-95 transition-all duration-300">
+                    <span>Lakkoofsa Fudhachuu (Bilisaan)</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Notice / Hubachiisa 1 -->
+            <div class="bg-amber-500/10 border-2 border-amber-500/40 rounded-2xl p-4 sm:p-5 text-amber-300 text-sm sm:text-base font-semibold max-w-2xl mx-auto shadow-inner flex items-start gap-3">
+                <span class="text-2xl">⚠️</span>
+                <div class="text-left w-full">
+                    <span class="font-bold text-amber-400">Hubachiisa:</span> Sponsarootarra <strong class="text-white bg-amber-500/30 px-1 rounded">lakkoofsota bilisaatiin</strong> carraan kennamu sa'aatii muraasa qofaaf kan turu dha!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNTDOWN TIMER SECTION -->
+    <section class="py-8 px-4 bg-slate-900/60 border-y border-slate-800">
+        <div class="max-w-3xl mx-auto text-center">
+            <h3 class="text-amber-400 font-bold text-base sm:text-lg mb-4 uppercase tracking-widest flex items-center justify-center gap-2">
+                <span>⏳</span> Yeroo Carraan Itti Cufu
+            </h3>
+            <div id="countdown" class="grid grid-cols-4 gap-3 max-w-lg mx-auto">
+                <div class="bg-slate-950 border border-amber-500/30 rounded-2xl p-3 shadow-lg">
+                    <span id="days" class="block text-3xl sm:text-4xl font-black text-amber-400">04</span>
+                    <span class="text-xs text-slate-400 font-medium">Guyyoota</span>
+                </div>
+                <div class="bg-slate-950 border border-amber-500/30 rounded-2xl p-3 shadow-lg">
+                    <span id="hours" class="block text-3xl sm:text-4xl font-black text-amber-400">23</span>
+                    <span class="text-xs text-slate-400 font-medium">Sa'aatii</span>
+                </div>
+                <div class="bg-slate-950 border border-amber-500/30 rounded-2xl p-3 shadow-lg">
+                    <span id="minutes" class="block text-3xl sm:text-4xl font-black text-amber-400">59</span>
+                    <span class="text-xs text-slate-400 font-medium">Daqiiqaa</span>
+                </div>
+                <div class="bg-slate-950 border border-amber-500/30 rounded-2xl p-3 shadow-lg">
+                    <span id="seconds" class="block text-3xl sm:text-4xl font-black text-amber-400">45</span>
+                    <span class="text-xs text-slate-400 font-medium">Sekondii</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECENT REGISTRANTS TICKER (SLIDING & ANIMATED) -->
+    <section class="py-6 bg-slate-950 overflow-hidden border-b border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 mb-3 flex items-center justify-between">
+            <h4 class="text-sm font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+                <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                Namoota Dhiyoo Galmaa'an (Live Ticker)
+            </h4>
+            <span class="text-xs text-emerald-400 font-semibold bg-emerald-500/10 px-2.5 py-1 rounded-md border border-emerald-500/20">Galmaa'aa jiru...</span>
+        </div>
+
+        <div class="relative w-full overflow-hidden py-2">
+            <!-- Fade Gradient Edges -->
+            <div class="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-slate-950 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-slate-950 to-transparent z-10 pointer-events-none"></div>
+
+            <!-- Marquee Container -->
+            <div class="animate-marquee flex gap-4">
+                <!-- Item Set 1 -->
+                <div class="flex items-center gap-4 shrink-0">
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center gap-3 shadow-md">
+                        <span class="text-emerald-400 text-lg">✅</span>
+                        <div>
+                            <p class="text-xs font-bold text-slate-200">+251 9***4821</p>
+                            <p class="text-[11px] text-amber-400 font-mono">Lak. Carraa: <strong>#482910</strong></p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center gap-3 shadow-md">
+                        <span class="text-emerald-400 text-lg">✅</span>
+                        <div>
+                            <p class="text-xs font-bold text-slate-200">+251 7***1930</p>
+                            <p class="text-[11px] text-amber-400 font-mono">Lak. Carraa: <strong>#892311</strong></p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center gap-3 shadow-md">
+                        <span class="text-emerald-400 text-lg">✅</span>
+                        <div>
+                            <p class="text-xs font-bold text-slate-200">+251 9***7755</p>
+                            <p class="text-[11px] text-amber-400 font-mono">Lak. Carraa: <strong>#104923</strong></p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center gap-3 shadow-md">
+                        <span class="text-emerald-400 text-lg">✅</span>
+                        <div>
+                            <p class="text-xs font-bold text-slate-200">+251 9***3392</p>
+                            <p class="text-[11px] text-amber-400 font-mono">Lak. Carraa: <strong>#773829</strong></p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center gap-3 shadow-md">
+                        <span class="text-emerald-400 text-lg">✅</span>
+                        <div>
+                            <p class="text-xs font-bold text-slate-200">+251 7***8814</p>
+                            <p class="text-[11px] text-amber-400 font-mono">Lak. Carraa: <strong>#339201</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item Set 2 (Duplicate for Seamless Loop) -->
+                <div class="flex items-center gap-4 shrink-0" aria-hidden="true">
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center gap-3 shadow-md">
+                        <span class="text-emerald-400 text-lg">✅</span>
+                        <div>
+                            <p class="text-xs font-bold text-slate-200">+251 9***4821</p>
+                            <p class="text-[11px] text-amber-400 font-mono">Lak. Carraa: <strong>#482910</strong></p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center gap-3 shadow-md">
+                        <span class="text-emerald-400 text-lg">✅</span>
+                        <div>
+                            <p class="text-xs font-bold text-slate-200">+251 7***1930</p>
+                            <p class="text-[11px] text-amber-400 font-mono">Lak. Carraa: <strong>#892311</strong></p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center gap-3 shadow-md">
+                        <span class="text-emerald-400 text-lg">✅</span>
+                        <div>
+                            <p class="text-xs font-bold text-slate-200">+251 9***7755</p>
+                            <p class="text-[11px] text-amber-400 font-mono">Lak. Carraa: <strong>#104923</strong></p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center gap-3 shadow-md">
+                        <span class="text-emerald-400 text-lg">✅</span>
+                        <div>
+                            <p class="text-xs font-bold text-slate-200">+251 9***3392</p>
+                            <p class="text-[11px] text-amber-400 font-mono">Lak. Carraa: <strong>#773829</strong></p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 flex items-center gap-3 shadow-md">
+                        <span class="text-emerald-400 text-lg">✅</span>
+                        <div>
+                            <p class="text-xs font-bold text-slate-200">+251 7***8814</p>
+                            <p class="text-[11px] text-amber-400 font-mono">Lak. Carraa: <strong>#339201</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRIZES SECTION -->
+    <section class="py-16 px-4 max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+            <span class="bg-amber-500/10 text-amber-400 border border-amber-500/30 px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wider">
+                Carraa Konkolaataa fi Maallaqaa Sagantaa 7ffaa Assé
+            </span>
+            <h2 class="text-3xl sm:text-5xl font-black mt-4 mb-3">Badhaasota Guddoo Carichaa</h2>
+            <p class="text-slate-400 text-base sm:text-lg">Amma galmaa'aa abbaa badhaasota kanaa ta'aa!</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- 1st Prize: Vitz 2004 ሞዴል ለስራ የሚሆን (With Pinterest Image) -->
+            <div class="bg-gradient-to-b from-slate-900 to-slate-950 border-2 border-amber-500/60 rounded-3xl p-6 relative shadow-2xl prize-glow flex flex-col justify-between">
+                <div class="absolute -top-4 right-6 bg-amber-500 text-slate-950 font-black px-4 py-1 rounded-full text-sm shadow-md z-10">
+                    Badhaasa 1ffaa
+                </div>
+                <div>
+                    <div class="h-48 bg-slate-950 rounded-2xl mb-6 overflow-hidden flex items-center justify-center border border-amber-500/30 relative">
+                        <!-- Pinterest Image Integration -->
+                        <img src="https://i.pinimg.com/736x/dc/1b/5c/dc1b5ce5204fa611bef3f91e31c8a812.jpg" alt="Vitz 2004 Model" class="w-full h-full object-cover transform hover:scale-105 transition duration-500">
+                    </div>
+                    <h3 class="text-2xl font-black text-amber-400 mb-2">Vitz Moodeela 2004</h3>
+                    <p class="text-slate-300 font-medium text-sm mb-4 leading-relaxed">Hojii fi sochii magaalaaf kan mijatu, konkolaataa hawwataa fi qulqullina qabu.</p>
+                </div>
+                <a href="http://addismobileapps.com/sms.html" class="block w-full text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold py-3 rounded-xl transition shadow-lg">
+                    Lakkoofsa Fudhachuu
+                </a>
+            </div>
+
+            <!-- 2nd Prize: 200,000 Birr -->
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 relative shadow-xl flex flex-col justify-between">
+                <div class="absolute -top-4 right-6 bg-slate-700 text-slate-100 font-black px-4 py-1 rounded-full text-sm shadow-md">
+                    Badhaasa 2ffaa
+                </div>
+                <div>
+                    <div class="h-48 bg-slate-950 rounded-2xl mb-6 overflow-hidden flex items-center justify-center border border-slate-800 relative">
+                        <div class="text-center">
+                            <span class="text-6xl block mb-2">💰</span>
+                            <span class="text-slate-200 font-bold text-sm tracking-wider">200,000 Birr</span>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-black text-white mb-2">200,000 Birr</h3>
+                    <p class="text-slate-400 text-sm mb-4 leading-relaxed">Karoora daldalaa fi jireenyaa keessaniif maallaqa badhaasaa guddaa.</p>
+                </div>
+                <a href="http://addismobileapps.com/sms.html" class="block w-full text-center bg-slate-800 hover:bg-slate-700 text-amber-400 font-extrabold py-3 rounded-xl transition border border-amber-500/30">
+                    Lakkoofsa Fudhachuu
+                </a>
+            </div>
+
+            <!-- 3rd Prize: 80,000 Birr -->
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 relative shadow-xl flex flex-col justify-between">
+                <div class="absolute -top-4 right-6 bg-slate-700 text-slate-100 font-black px-4 py-1 rounded-full text-sm shadow-md">
+                    Badhaasa 3ffaa
+                </div>
+                <div>
+                    <div class="h-48 bg-slate-950 rounded-2xl mb-6 overflow-hidden flex items-center justify-center border border-slate-800 relative">
+                        <div class="text-center">
+                            <span class="text-6xl block mb-2">💵</span>
+                            <span class="text-slate-200 font-bold text-sm tracking-wider">80,000 Birr</span>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-black text-white mb-2">80,000 Birr</h3>
+                    <p class="text-slate-400 text-sm mb-4 leading-relaxed">Badhaasa maallaqaa ajaa'ibaa.</p>
+                </div>
+                <a href="http://addismobileapps.com/sms.html" class="block w-full text-center bg-slate-800 hover:bg-slate-700 text-amber-400 font-extrabold py-3 rounded-xl transition border border-amber-500/30">
+                    Lakkoofsa Fudhachuu
+                </a>
+            </div>
+        </div>
+
+        <!-- Call to Action Banner inside page -->
+        <div class="mt-16 bg-gradient-to-r from-amber-600 to-yellow-600 rounded-3xl p-8 sm:p-12 text-slate-950 text-center shadow-2xl relative overflow-hidden">
+            <div class="relative z-10 max-w-2xl mx-auto">
+                <h3 class="text-3xl sm:text-4xl font-black mb-4">Carraa keessan amma bilisaan yaali!</h3>
+                <p class="text-slate-950 font-bold text-base sm:text-lg mb-8 opacity-90">
+                    Sa'aatii muraasaaf qofa kan turu, sponsarootarra argaman lakkoofsota bilisaa fayyadamuun carraa keessan bilisaan liinkii tuqanii yaali!
+                </p>
+                <a href="http://addismobileapps.com/sms.html" class="inline-block bg-slate-950 hover:bg-slate-900 text-amber-400 font-black text-xl px-10 py-4 rounded-2xl shadow-xl transition transform hover:scale-105 active:scale-95">
+                    Lakkoofsa Fudhachuu (Bilisaan)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOTICE 2 (Hubachiisa 2) -->
+    <section class="py-6 px-4 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-3xl mx-auto text-center">
+            <div class="bg-slate-950 border border-slate-800 rounded-2xl p-5 text-slate-300 text-sm sm:text-base font-semibold shadow-inner flex items-center justify-center gap-3">
+                <span class="text-2xl">📢</span>
+                <p><strong>Hubachiisa ፦</strong> Amanamummaa carrichaa mirkaneessuuf guyyoota dhufan keessatti Live Tiqtok irratti kan ba'u ta'a.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 py-10 px-4 text-center border-t border-slate-900 text-slate-500 text-sm">
+        <p class="mb-2">© 2026 Carraa Konkolaataa fi Maallaqaa Sagantaa 7ffaa Assé. Mirgi hunduu seeraan eegamaadha.</p>
+        <p class="text-xs text-slate-600">Gargaarsaaf odeeffannoo dabalataaf addismobileapps.com/sms.html daawwadhaa.</p>
+    </footer>
+
+    <!-- STICKY MOBILE BOTTOM CTA BAR -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-md border-t border-amber-500/30 p-3 sm:hidden shadow-2xl flex items-center justify-between gap-3">
+        <div class="text-right pl-2">
+            <span class="block text-[11px] text-amber-400 font-bold">Sa'aatii muraasaaf qofa!</span>
+            <span class="block text-xs text-slate-300 font-medium">Lakkoofsa Bilisaa Fudhachuu</span>
+        </div>
+        <a href="http://addismobileapps.com/sms.html" class="flex-1 bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-center py-3 rounded-xl shadow-lg text-base animate-pulse">
+            Lakkoofsa Fudhachuu 🚀
+        </a>
+    </div>
+
+    <!-- SCRIPT FOR COUNTDOWN TIMER -->
+    <script>
+        // 4 Days Countdown Timer
+        const countDate = new Date().getTime() + (4 * 24 * 60 * 60 * 1000);
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const gap = countDate - now;
+
+            const second = 1000;
+            const minute = second * 60;
+            const hour = minute * 60;
+            const day = hour * 24;
+
+            const d = Math.floor(gap / day);
+            const h = Math.floor((gap % day) / hour);
+            const m = Math.floor((gap % hour) / minute);
+            const s = Math.floor((gap % minute) / second);
+
+            document.getElementById('days').innerText = String(d).padStart(2, '0');
+            document.getElementById('hours').innerText = String(h).padStart(2, '0');
+            document.getElementById('minutes').innerText = String(m).padStart(2, '0');
+            document.getElementById('seconds').innerText = String(s).padStart(2, '0');
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+</html>
